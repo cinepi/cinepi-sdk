@@ -1,0 +1,12 @@
+[submodule "cinepi-raw"]
+	path = cinepi-raw
+	url = https://github.com/cinepi/cinepi-raw.git
+	branch = cinepi-sdk-001
+[submodule "cinepi-gui"]
+	path = cinepi-gui
+	url = https://github.com/cinepi/cinepi-gui.git
+	branch = main
+[submodule "libcamera"]
+	path = libcamera
+	url = https://github.com/cinepi/libcamera.git
+	branch = cinepi-sdk-001
