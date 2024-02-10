@@ -15,7 +15,7 @@
 
 
 # Overview
-The purpose of this repository is to host pre-built images that include all necessary software and drivers to facilitate quick-n-easy development of cinepi software components. 
+The purpose of this repository is to host pre-built images that include all necessary software and drivers to facilitate quick-and-easy development of cinepi software components. 
 
 Based on the latest Debian release for Raspberry Pi ( Bookworm ). Head to the [releases](https://github.com/cinepi/cinepi-sdk/releases) page to download the latest pre-zipped `.img` file and flash to your micro-sd card to get started! 
 
