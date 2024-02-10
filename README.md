@@ -76,5 +76,21 @@ Testing can be done after installation by running ***2*** scripts found within t
 
 ## Development
 
+This SDK has been provided as a means to promote development of CinePI software components in a structured and collaborative environment. 
 
+### SSH Access
+
+hostname: `cinepi.local`
+user: `pi`
+password: `1`
+
+Example for accessing via a terminal: `ssh pi@cinepi.local`
+
+### Architecture / Design
+
+Below is high level overview of the hardware and software components of a CinePI based camera. 
+
+![diagram]()
+
+For detailed breakdowns of the individual software components such as [`cinepi-raw`](https://github.com/cinepi/cinepi-raw) or [`cinepi-gui`](https://github.com/cinepi/cinepi-gui), please visit their respective repositories for more details. 
 
