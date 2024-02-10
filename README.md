@@ -21,13 +21,18 @@ Based on the latest Debian release for Raspberry Pi ( Bookworm ). Head to the [r
 
 
 # Supported Hardware
-![CinePI SDK Banner](docs/image_sensor_modules.jpg)
+
+CinePI cameras are based around Raspberry Pi hardware / software.
+
+1st party camera modules from Raspberry Pi come with supported out of the box, 3rd party sensor modules from [Will Whang](https://github.com/will127534) and [Soho-enterprise](https://soho-enterprise.com/) are also supported.  
 
 ## Mainboards
 - ~~Raspberry Pi 4B / Compute Module 4~~ (***Untested***)
-- Raspberry Pi 5 
+- Raspberry Pi 5 ( 4/8 GB )
 
 ## Image Sensor Modules
+![CinePI SDK Banner](docs/image_sensor_modules.jpg)
+*HQ Camera Module, StarlightEye, OneInchEye, SE-SB8M-IMX585*
 - [Raspberry Pi HQ Camera ( IMX477 )](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/)
 - [Raspberry Pi Camera Module 3 ( IMX708 )](https://www.raspberrypi.com/products/camera-module-3/)
 - [OneInchEye ( IMX283 )](https://github.com/will127534/OneInchEye)
