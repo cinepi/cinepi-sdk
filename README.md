@@ -15,7 +15,7 @@
 
 
 # Overview
-The purpose of this repository is to host pre-built images that include all necessary software and drivers to facilate quick-n-easy development of cinepi software components. 
+The purpose of this repository is to host pre-built images that include all necessary software and drivers to facilitate quick-n-easy development of cinepi software components. 
 
 Based on the latest Debian release for Raspberry Pi ( Bookworm ). Head to the [releases](https://github.com/cinepi/cinepi-sdk/releases) page to download the latest pre-zipped `.img` file and flash to your micro-sd card to get started! 
 
@@ -37,4 +37,44 @@ CinePI cameras are based around Raspberry Pi hardware / software.
 - [Raspberry Pi Camera Module 3 ( IMX708 )](https://www.raspberrypi.com/products/camera-module-3/)
 - [OneInchEye ( IMX283 )](https://github.com/will127534/OneInchEye)
 - [StarlightEye ( IMX585 )](https://github.com/will127534/StarlightEye)
+
+
+# Getting started 
+
+## Setup
+
+1. Install the latest image from [releases](https://github.com/cinepi/cinepi-sdk/releases) , `unzip` or use software like [Belena Etcher](https://etcher.balena.io/) to flash the .zip directly to a micro-sd card.
+
+2. Depending on which camera module you have decided to use, you will need to modify the `config.txt` found in the boot partition. Enable the correct sensor overlay by uncommenting the appropriate lines for your given sensor module. *By default the image comes with `camera_auto_detect` enabled, so 1st party camera modules from Raspberry Pi should automatically be detected.* ***Connect camera modules to camera port 1.***
+
+```
+# Automatically load overlays for detected cameras
+camera_auto_detect=1
+
+# OneInchEye Module ( default camera port 1 )
+#camera_auto_detect=0
+#dtoverlay=imx283
+
+# StarlightEye Module ( default camera port 1 )
+#camera_auto_detect=0
+#dtoverlay=imx585
+```
+
+3. Insert the micro-sd card into the Raspberry Pi and power on. ***Connect the Pi to a display via HDMI*** *( During first boot you may experience a sudden reboot, this is normal as the Pi expands the filesystem. )*
+
+4. Upon successful installation, you will presented with the familiar desktop environment for Raspberry Pi. 
+
+## Testing
+
+Testing can be done after installation by running ***2*** scripts found within the `home` directory. 
+
+1. `run-raw.sh` : this script is responsible for starting the [`cinepi-raw`](https://github.com/cinepi/cinepi-raw) instance that starts and controls the camera. 
+
+2. `run-gui.sh` : this script is responsible for starting the [`cinepi-gui`](https://github.com/cinepi/cinepi-gui) instance that displays the live camera preview, overlays and controls. 
+
+
+
+## Development
+
+
 
