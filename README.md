@@ -45,6 +45,18 @@ CinePI cameras are based around Raspberry Pi hardware / software.
 
 1. Install the latest image from [releases](https://github.com/cinepi/cinepi-sdk/releases) , `unzip` or use software like [Belena Etcher](https://etcher.balena.io/) to flash the .zip directly to a micro-sd card.
 
+* <details>
+    <summary>
+    ⚠️<b>SSH Access</b>⚠️
+    </summary> <br />
+
+    hostname: `cinepi.local`
+    user: `pi`
+    password: `1`
+
+    Example for accessing via a terminal: `ssh pi@cinepi.local`
+    </details>
+
 2. Depending on which camera module you have decided to use, you will need to modify the `config.txt` found in the boot partition. Enable the correct sensor overlay by uncommenting the appropriate lines for your given sensor module. *By default the image comes with `camera_auto_detect` enabled, so 1st party camera modules from Raspberry Pi should automatically be detected.* ***Connect camera modules to camera port 1.***
 
 ```
@@ -78,19 +90,11 @@ Testing can be done after installation by running ***2*** scripts found within t
 
 This SDK has been provided as a means to promote development of CinePI software components in a structured and collaborative environment. 
 
-### SSH Access
-
-hostname: `cinepi.local`
-user: `pi`
-password: `1`
-
-Example for accessing via a terminal: `ssh pi@cinepi.local`
-
 ### Architecture / Design
 
 Below is high level overview of the hardware and software components of a CinePI based camera. 
 
-![diagram]()
+![diagram](docs/diagram.png)
 
 For detailed breakdowns of the individual software components such as [`cinepi-raw`](https://github.com/cinepi/cinepi-raw) or [`cinepi-gui`](https://github.com/cinepi/cinepi-gui), please visit their respective repositories for more details. 
 
