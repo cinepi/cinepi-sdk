@@ -72,7 +72,7 @@ Testing can be done after installation by running ***2*** scripts found within t
 
 2. `run-gui.sh` : this script is responsible for starting the [`cinepi-gui`](https://github.com/cinepi/cinepi-gui) instance that displays the live camera preview, overlays and controls. 
 
-
+[Demo video](docs/testing.gif)
 
 ## Development
 
