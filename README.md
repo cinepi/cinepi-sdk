@@ -24,13 +24,12 @@ Based on the latest Debian release for Raspberry Pi ( Bookworm ). Head to the [r
 ![CinePI SDK Banner](docs/image_sensor_modules.jpg)
 
 ## Mainboards
-- Raspberry Pi 4B / Compute Module 4 ( Untested )
+- ~~Raspberry Pi 4B / Compute Module 4~~ (***Untested***)
 - Raspberry Pi 5 
 
 ## Image Sensor Modules
-- Raspberry Pi HQ Camera ( IMX477 )
-- Raspberry Pi V3 Camera Module ( IMX708 )
-
-- OneInchEye ( IMX283 )
-- StarlightEye ( IMX585 )
+- [Raspberry Pi HQ Camera ( IMX477 )](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/)
+- [Raspberry Pi Camera Module 3 ( IMX708 )](https://www.raspberrypi.com/products/camera-module-3/)
+- [OneInchEye ( IMX283 )](https://github.com/will127534/OneInchEye)
+- [StarlightEye ( IMX585 )](https://github.com/will127534/StarlightEye)
 
