@@ -27,7 +27,7 @@ CinePI cameras are based around Raspberry Pi hardware / software.
 1st party camera modules from Raspberry Pi are supported out of the box, 3rd party sensor modules designs from [Will Whang](https://github.com/will127534) and [Soho-enterprise](https://soho-enterprise.com/) are also supported.  
 
 ## Mainboards
-- ~~Raspberry Pi 4B / Compute Module 4~~ (***Untested***)
+- ~~Raspberry Pi 4B / Compute Module 4~~ (***Unsupported***)
 - Raspberry Pi 5 ( 4/8 GB )
 
 ## Image Sensor Modules
