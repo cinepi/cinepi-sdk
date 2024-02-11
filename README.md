@@ -86,6 +86,10 @@ Testing can be done after installation by running ***2*** scripts found within t
 
 ![Demo video](docs/testing.gif)
 
+In addition when running the `run-raw.sh` script, you can also preview a live MJPEG stream via a browser on port `8000` on the route `/stream`. For example on another computer sharing the same network as the pi; go to: `cinepi.local:8000/stream`
+
+![mjpeg stream demo](docs/mjpeg.gif)
+
 ## Development
 
 This SDK has been provided as a means to promote development of CinePI software components in a structured and collaborative environment. 
