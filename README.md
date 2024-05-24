@@ -105,7 +105,7 @@ For detailed breakdowns of the individual software components such as [`cinepi-r
 # Discussion
 
 
-[![discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sYBH8Wfx)
+[![discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dgjcvcmp)
 [![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cinepi/cinepi-sdk/discussions)
 
 # Donate
